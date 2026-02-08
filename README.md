@@ -50,8 +50,8 @@ Transform your anime watching into active language learning with grammar-aware, 
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/nakama-subtitles.git
-cd nakama-subtitles
+git clone https://github.com/Vinayak-Sutar/Nakama-The-Language-Sensei.git
+cd Nakama-The-Language-Sensei
 
 # Create virtual environment
 python3 -m venv venv
@@ -145,4 +145,4 @@ MIT License - See [LICENSE](LICENSE)
 ---
 
 **Made with ❤️ for language learners**  
-[DevPost](DEVPOST_LINK) | [GitHub](GITHUB_LINK)
+[GitHub](https://github.com/Vinayak-Sutar/Nakama-The-Language-Sensei)
