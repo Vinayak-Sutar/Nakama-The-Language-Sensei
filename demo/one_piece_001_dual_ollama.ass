@@ -1,0 +1,586 @@
+[Script Info]
+Title: Project Nakama - Color-Coded Dual Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 640
+PlayResY: 360
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Romaji_Main,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,35,1
+Style: English_Main,Arial,16,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:16.16,0:00:18.17,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:00:16.16,0:00:18.17,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:00:18.29,0:00:22.38,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Fuu{\c&HFFFFFF&} Mei{\c&HFFFFFF&} Sei{\c&HFFFFFF&} Ryoku
+Dialogue: 0,0:00:18.29,0:00:22.38,English_Main,,0,0,0,,Wealth, fame, power...
+
+Dialogue: 0,0:00:22.50,0:00:26.13,Romaji_Main,,0,0,0,,{\c&H00FF00&}Kono{\c&HFFFFFF&} Seki{\c&HFFFFFF&} no{\c&HFFFFFF&} Subete{\c&HFFFFFF&} o{\c&H00FFFF&} Te{\c&HFFFFFF&} Ni{\c&H00FFFF&} Iratta{\c&HFFFFFF&} Otoko{\c&H00FFFF&} Kaizoku{\c&HFFFFFF&} Ō{\c&H00FFFF&} Goldu{\c&HFFFFFF&} Rōjā
+Dialogue: 0,0:00:22.50,0:00:26.13,English_Main,,0,0,0,,Gold Roger, the King of the Pirates,
+
+Dialogue: 0,0:00:26.30,0:00:29.93,Romaji_Main,,0,0,0,,{\c&H00FF00&}Sakana{\c&HFFFFFF&} Ni{\c&H00FFFF&} Ikite{\c&HFFFFFF&} Iru{\c&H00FFFF&} Hitona{\c&HFFFFFF&} Kotoba{\c&H00FFFF&} wa{\c&HFFFFFF&} Daredemo{\c&H00FFFF&} Kaizoku{\c&H00FFFF&} Ō{\c&H00FFFF&} to{\c&H00FF00&} Yobareta
+Dialogue: 0,0:00:26.30,0:00:29.93,English_Main,,0,0,0,,The words he uttered just before his death drove people to the seas.
+
+Dialogue: 0,0:00:30.09,0:00:33.64,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ore{\c&HFFFFFF&} no{\c&H00FFFF&} Kai{\c&HFFFFFF&} Bō{\c&H00FFFF&} ka?{\c&HFFFFFF&} Hikari{\c&H00FFFF&} Shiyoriya{\c&HFFFFFF&} Kara{\c&H00FF00&} Yarū
+Dialogue: 0,0:00:30.09,0:00:33.64,English_Main,,0,0,0,,My treasure? If you want it, you can have it!
+
+Dialogue: 0,0:00:36.27,0:00:38.77,Romaji_Main,,0,0,0,,{\c&H00FF00&}Saso!{\c&H00FFFF&} Kono{\c&H00FFFF&} Seki{\c&HFFFFFF&} no{\c&H00FFFF&} Subete{\c&H00FFFF&} o{\c&H00FF00&} Soko{\c&H00FFFF&} Ni{\c&H00FFFF&} Oshieru
+Dialogue: 0,0:00:36.27,0:00:38.77,English_Main,,0,0,0,,Find it! Left everything this world has to offer there!
+
+Dialogue: 0,0:00:38.89,0:00:40.65,Romaji_Main,,0,0,0,,{\c&H00FF00&}Otoko-tachi{\c&H00FFFF&} wa{\c&H00FFFF&} Gurando{\c&H00FFFF&} Rain{\c&H00FFFF&} o{\c&H00FF00&} Mezashite
+Dialogue: 0,0:00:38.89,0:00:40.65,English_Main,,0,0,0,,And so men head for the Grand Line in pursuit of their dreams!
+
+Dialogue: 0,0:00:41.02,0:00:44.28,Romaji_Main,,0,0,0,,{\c&H00FF00&}Yume{\c&H00FFFF&} o{\c&H00FFFF&} Meguru
+Dialogue: 0,0:00:41.02,0:00:44.28,English_Main,,0,0,0,,The world has truly entered a Great Pirate Era!
+
+Dialogue: 0,0:00:44.98,0:00:50.99,Romaji_Main,,0,0,0,,{\c&H00FF00&}♪～{\c&H00FFFF&}～♪
+Dialogue: 0,0:00:44.98,0:00:50.99,English_Main,,0,0,0,,Whoa...
+
+Dialogue: 0,0:01:57.97,0:02:04.48,Romaji_Main,,0,0,0,,{\c&H00FF00&}"Ora wa Rufi! Kaizoku Ō ni Naru Otoko da!"
+Dialogue: 0,0:01:57.97,0:02:04.48,English_Main,,0,0,0,,This thing's heavy!
+
+Dialogue: 0,0:02:04.90,0:02:11.90,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ee{\c&H00FFFF&} Goshiki{\c&H00FFFF&} Wakaru
+Dialogue: 0,0:02:04.90,0:02:11.90,English_Main,,0,0,0,,Must be filled with booze, then!
+
+Dialogue: 0,0:02:29.05,0:02:31.13,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ano{\c&H00FFFF&} Tachi{\c&H00FFFF&} no{\c&H00FFFF&} Meru{\c&H00FFFF&} Kono{\c&H00FFFF&} Bōkin{\c&H00FFFF&} Ni{\c&H00FF00&} To{\c&H00FFFF&} Hitori{\c&H00FFFF&} Mo{\c&H00FFFF&} Naiya{\c&H00FFFF&} Nai
+Dialogue: 0,0:02:29.05,0:02:31.13,English_Main,,0,0,0,,Not again...
+
+Dialogue: 0,0:02:31.72,0:02:32.63,Romaji_Main,,0,0,0,,{\c&H00FF00&}"Ojisan"
+Dialogue: 0,0:02:31.72,0:02:32.63,English_Main,,0,0,0,,What're you doing? You suck!
+
+Dialogue: 0,0:02:32.76,0:02:33.80,Romaji_Main,,0,0,0,,{\c&H00FF00&}Watashi{\c&H00FFFF&} to{\c&H00FFFF&} Odori{\c&H00FFFF&} o{\c&H00FF00&} Todokimasen{\c&H00FFFF&} ka?
+Dialogue: 0,0:02:32.76,0:02:33.80,English_Main,,0,0,0,,May I have this dance?
+
+Dialogue: 0,0:02:41.52,0:02:45.23,Romaji_Main,,0,0,0,,{\c&H00FF00&}"Alright!"
+Dialogue: 0,0:02:41.52,0:02:45.23,English_Main,,0,0,0,,It's all ours now!
+
+Dialogue: 0,0:03:08.59,0:03:10.46,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:03:08.59,0:03:10.46,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:03:12.55,0:03:14.09,Romaji_Main,,0,0,0,,{\c&HFFFF00&}oyssha{\c&HFFFFFF&} ora
+Dialogue: 0,0:03:12.55,0:03:14.09,English_Main,,0,0,0,,Ship off the starboard stern!
+
+Dialogue: 0,0:03:14.22,0:03:15.89,Romaji_Main,,0,0,0,,{\c&H00FF00&}kaa…{\c&HFFFFFF&} atatakai
+Dialogue: 0,0:03:14.22,0:03:15.89,English_Main,,0,0,0,,There's a pirate flag on its mast!
+
+Dialogue: 0,0:03:16.01,0:03:17.55,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Heheheh{\c&HFFFFFF&} bataa{\c&HFFFFFF&} toru{\c&HFFFFFF&} ausu
+Dialogue: 0,0:03:16.01,0:03:17.55,English_Main,,0,0,0,,It's a pirate ship! \NEnemy raid! Enemy raid!
+
+Dialogue: 0,0:03:17.76,0:03:19.14,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Nan{\c&HFFFFFF&} yatte{\c&HFFFFFF&} nanda{\c&HFFFFFF&} yo
+Dialogue: 0,0:03:17.76,0:03:19.14,English_Main,,0,0,0,,What?!
+
+Dialogue: 0,0:03:20.43,0:03:22.56,Romaji_Main,,0,0,0,,{\c&H00FF00&}Shigoku
+Dialogue: 0,0:03:20.43,0:03:22.56,English_Main,,0,0,0,,Everyone, stay calm!
+
+Dialogue: 0,0:03:32.94,0:03:34.57,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ee?{\c&HFFFFFF&} Un?
+Dialogue: 0,0:03:32.94,0:03:34.57,English_Main,,0,0,0,,Stay calm!
+
+Dialogue: 0,0:03:34.70,0:03:36.57,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Koitsu{\c&HFFFFFF&} wa{\c&HFFFFFF&} oiyase
+Dialogue: 0,0:03:34.70,0:03:36.57,English_Main,,0,0,0,,Follow instructions in a calm manner!
+
+Dialogue: 0,0:03:37.24,0:03:38.57,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Nakushimatta{\c&HFFFFFF&} puro…
+Dialogue: 0,0:03:37.24,0:03:38.57,English_Main,,0,0,0,,Fire!
+
+Dialogue: 0,0:03:38.70,0:03:39.95,Romaji_Main,,0,0,0,,{\c&H00FF00&}Saka{\c&HFFFFFF&} daru{\c&HFFFFFF&} to{\c&HFFFFFF&} mita{\c&HFFFFFF&} ne
+Dialogue: 0,0:03:38.70,0:03:39.95,English_Main,,0,0,0,,Coby!
+
+Dialogue: 0,0:03:40.20,0:03:42.33,Romaji_Main,,0,0,0,,{\c&H00FF00&}Heheh{\c&HFFFFFF&} he.{\c&HFFFFFF&} Toppi
+Dialogue: 0,0:03:40.20,0:03:42.33,English_Main,,0,0,0,,Y-Yes, ma'am?!
+
+Dialogue: 0,0:03:51.88,0:03:53.46,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ha…{\c&HFFFFFF&} ha…{\c&HFFFFFF&} ha…
+Dialogue: 0,0:03:51.88,0:03:53.46,English_Main,,0,0,0,,Who's the most beautiful of all on these seas?
+
+Dialogue: 0,0:03:53.96,0:03:56.18,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Ue{\c&HFFFFFF&} noyo{\c&HFFFFFF&} ni{\c&HFFFFFF&} senrei
+Dialogue: 0,0:03:53.96,0:03:56.18,English_Main,,0,0,0,,T-This ship's captain, \NAlvida-sama, of course!
+
+Dialogue: 0,0:03:56.30,0:03:58.22,Romaji_Main,,0,0,0,,{\c&H00FF00&}Mastu{\c&HFFFFFF&} o{\c&HFFFFFF&} eki{\c&HFFFFFF&} ni{\c&HFFFFFF&} umi{\c&HFFFFFF&} zoku{\c&HFFFFFF&} ki
+Dialogue: 0,0:03:56.30,0:03:58.22,English_Main,,0,0,0,,Well done!
+
+Dialogue: 0,0:03:58.34,0:04:00.05,Romaji_Main,,0,0,0,,{\c&H00FF00&}Umi{\c&HFFFFFF&} zoku{\c&HFFFFFF&} fuku{\c&HFFFFFF&} da{\c&HFFFFFF&} enki{\c&HFFFFFF&} shuu!
+Dialogue: 0,0:03:58.34,0:04:00.05,English_Main,,0,0,0,,T-Thank you!
+
+Dialogue: 0,0:04:01.18,0:04:05.48,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Enki{\c&HFFFFFF&} shuu!{\c&HFFFFFF&} (Mizufu A * B) {\c&HFFFFFF&} Uwaaa
+Dialogue: 0,0:04:01.18,0:04:05.48,English_Main,,0,0,0,,( Daibora no hatsudō on )
+
+Dialogue: 0,0:04:09.19,0:04:11.48,Romaji_Main,,0,0,0,,{\c&H00FF00&}(Jinshin no koe)
+Dialogue: 0,0:04:09.19,0:04:11.48,English_Main,,0,0,0,,( Jinshin no koe )
+
+Dialogue: 0,0:04:14.57,0:04:15.86,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Sencha{\c&HFFFFFF&} chou{\c&HFFFFFF&} hei{\c&HFFFFFF&} zoku{\c&HFFFFFF&} desu
+Dialogue: 0,0:04:14.57,0:04:15.86,English_Main,,0,0,0,,Ee?
+
+Dialogue: 0,0:04:16.20,0:04:17.11,Romaji_Main,,0,0,0,,{\c&H00FF00&}(Jinshin no koe)
+Dialogue: 0,0:04:16.20,0:04:17.11,English_Main,,0,0,0,,( Jinshin no koe )
+
+Dialogue: 0,0:04:18.95,0:04:20.16,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:04:18.95,0:04:20.16,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:05:55.38,0:05:56.71,Romaji_Main,,0,0,0,,見せておやり
+Dialogue: 0,0:05:55.38,0:05:56.71,English_Main,,0,0,0,,Thing's pretty heavy!
+
+Dialogue: 0,0:05:57.25,0:05:59.63,Romaji_Main,,0,0,0,,（海賊たち）Oooh!
+Dialogue: 0,0:05:57.25,0:05:59.63,English_Main,,0,0,0,,Can't wait!
+
+Dialogue: 0,0:05:59.76,0:06:02.13,Romaji_Main,,0,0,0,,ヤッホーイ
+Dialogue: 0,0:05:59.76,0:06:02.13,English_Main,,0,0,0,,Hold yer horses!
+
+Dialogue: 0,0:06:06.06,0:06:07.06,Romaji_Main,,0,0,0,,あわわわ…
+Dialogue: 0,0:06:06.06,0:06:07.06,English_Main,,0,0,0,,I slept great!
+
+Dialogue: 0,0:06:07.22,0:06:09.27,Romaji_Main,,0,0,0,,コビー なんてんですか
+Dialogue: 0,0:06:07.22,0:06:09.27,English_Main,,0,0,0,,Huh?
+
+Dialogue: 0,0:06:09.39,0:06:11.69,Romaji_Main,,0,0,0,,僕 こういうの苦手で…
+Dialogue: 0,0:06:09.39,0:06:11.69,English_Main,,0,0,0,,Who're you guys?
+
+Dialogue: 0,0:06:11.81,0:06:15.65,Romaji_Main,,0,0,0,,あん？ 私に口答えしようってのかい？
+Dialogue: 0,0:06:11.81,0:06:15.65,English_Main,,0,0,0,,No, who are you?!
+
+Dialogue: 0,0:06:15.77,0:06:19.40,Romaji_Main,,0,0,0,,はわわ… どうか金棒の刑だけは…
+Dialogue: 0,0:06:15.77,0:06:19.40,English_Main,,0,0,0,,That guy's gonna catch cold
+
+Dialogue: 0,0:06:20.49,0:06:22.99,Romaji_Main,,0,0,0,,だったら さっさとお行きーっ！
+Dialogue: 0,0:06:20.49,0:06:22.99,English_Main,,0,0,0,,You did that!
+
+Dialogue: 0,0:06:23.45,0:06:24.53,Romaji_Main,,0,0,0,,（コビー）うげっ
+Dialogue: 0,0:06:23.45,0:06:24.53,English_Main,,0,0,0,,Are you toyin' with us even
+
+Dialogue: 0,0:06:27.91,0:06:32.66,Romaji_Main,,0,0,0,,（アルビダ）おらあーっ！
+Dialogue: 0,0:06:27.91,0:06:32.66,English_Main,,0,0,0,,when you know we're pirates?!
+
+Dialogue: 0,0:06:33.00,0:06:34.75,Romaji_Main,,0,0,0,,ハアーッ！
+Dialogue: 0,0:06:33.00,0:06:34.75,English_Main,,0,0,0,,Man, I'm hungry!
+
+Dialogue: 0,0:06:41.47,0:06:43.59,Romaji_Main,,0,0,0,,（海賊）ヘッハッハッハ…
+Dialogue: 0,0:06:41.47,0:06:43.59,English_Main,,0,0,0,,You got any food?
+
+Dialogue: 0,0:06:44.01,0:06:46.51,Romaji_Main,,0,0,0,,命まで取ろうとは言わねえよ
+Dialogue: 0,0:06:44.01,0:06:46.51,English_Main,,0,0,0,,Listen when people are talking!
+
+Dialogue: 0,0:06:46.64,0:06:48.97,Romaji_Main,,0,0,0,,だが 金めのもんは 全部 頂くぜ
+Dialogue: 0,0:06:46.64,0:06:48.97,English_Main,,0,0,0,,You damn kid!
+
+Dialogue: 0,0:06:49.10,0:06:53.52,Romaji_Main,,0,0,0,,（アルビダ） 抵抗するやつは 海の藻くずになってもらうだけさ
+Dialogue: 0,0:06:49.10,0:06:53.52,English_Main,,0,0,0,,Die!
+
+Dialogue: 0,0:06:54.06,0:07:00.69,Romaji_Main,,0,0,0,,（コビー）こんにちは…
+Dialogue: 0,0:06:54.06,0:07:00.69,English_Main,,0,0,0,,What's the big idea?
+
+Dialogue: 0,0:07:01.49,0:07:04.11,Romaji_Main,,0,0,0,,ここは誰もいませんね
+Dialogue: 0,0:07:01.49,0:07:04.11,English_Main,,0,0,0,,W-Who are you?!
+
+Dialogue: 0,0:07:05.66,0:07:08.62,Romaji_Main,,0,0,0,,フウ… よかった
+Dialogue: 0,0:07:05.66,0:07:08.62,English_Main,,0,0,0,,Me?
+
+Dialogue: 0,0:07:08.91,0:07:10.87,Romaji_Main,,0,0,0,,I'm Monkey D. Luffy.
+Dialogue: 0,0:07:08.91,0:07:10.87,English_Main,,0,0,0,,I'm Monkey D. Luffy.
+
+Dialogue: 0,0:07:10.99,0:07:11.83,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:07:10.99,0:07:11.83,English_Main,,0,0,0,,|ENGLISH_LINE
+
+Dialogue: 0,0:07:13.75,0:07:16.67,Romaji_Main,,0,0,0,,？
+Dialogue: 0,0:07:13.75,0:07:16.67,English_Main,,0,0,0,,R-Run, hurry! If they come back \Nwith their friends, you'll be killed!
+
+Dialogue: 0,0:07:19.63,0:07:20.55,Romaji_Main,,0,0,0,,（ナミ）えいっ
+Dialogue: 0,0:07:19.63,0:07:20.55,English_Main,,0,0,0,,But man, I sure am hungry!
+
+Dialogue: 0,0:07:27.18,0:07:27.89,Romaji_Main,,0,0,0,,ずいぶん大きなたるね
+Dialogue: 0,0:07:27.18,0:07:27.89,English_Main,,0,0,0,,How can you be so carefree?!
+
+Dialogue: 0,0:07:28.01,0:07:29.72,Romaji_Main,,0,0,0,,ああ…
+Dialogue: 0,0:07:28.01,0:07:29.72,English_Main,,0,0,0,,
+
+Dialogue: 0,0:07:29.85,0:07:32.18,Romaji_Main,,0,0,0,,は？ なんだ おめえ？
+Dialogue: 0,0:07:29.85,0:07:32.18,English_Main,,0,0,0,,There are still lots more of them up on deck!
+
+Dialogue: 0,0:07:32.89,0:07:33.98,Romaji_Main,,0,0,0,,見ねえ顔だな ん？
+Dialogue: 0,0:07:32.89,0:07:33.98,English_Main,,0,0,0,,C'mon! This way!
+
+Dialogue: 0,0:07:34.10,0:07:36.40,Romaji_Main,,0,0,0,,（蹴る音） （海賊）うわあ…
+Dialogue: 0,0:07:34.10,0:07:36.40,English_Main,,0,0,0,,H-H-Hey! Not this way!
+
+Dialogue: 0,0:07:36.52,0:07:37.65,Romaji_Main,,0,0,0,,うへーっ
+Dialogue: 0,0:07:36.52,0:07:37.65,English_Main,,0,0,0,,
+
+Dialogue: 0,0:07:40.94,0:07:45.90,Romaji_Main,,0,0,0,,（倒れる音）
+Dialogue: 0,0:07:40.94,0:07:45.90,English_Main,,0,0,0,,
+
+Dialogue: 0,0:07:46.03,0:07:47.07,Romaji_Main,,0,0,0,,（たるを転がす音）
+Dialogue: 0,0:07:46.03,0:07:47.07,English_Main,,0,0,0,,
+
+Dialogue: 0,0:07:47.53,0:07:48.74,Romaji_Main,,0,0,0,,（コビー）クソッ…
+Dialogue: 0,0:07:47.53,0:07:48.74,English_Main,,0,0,0,,Food! Food! Food!
+
+Dialogue: 0,0:07:48.87,0:07:51.45,Romaji_Main,,0,0,0,,（海賊Ａ）おい 臆病者
+Dialogue: 0,0:07:48.87,0:07:51.45,English_Main,,0,0,0,,Yes! Food!
+
+Dialogue: 0,0:07:51.58,0:07:55.33,Romaji_Main,,0,0,0,,また こんな所に逃げ込んで 油売ってんのか？
+Dialogue: 0,0:07:51.58,0:07:55.33,English_Main,,0,0,0,,Actually, they might not find us in here!
+
+Dialogue: 0,0:07:55.46,0:07:58.92,Romaji_Main,,0,0,0,,違います　この大きな酒たる 運ぼうと思って…
+Dialogue: 0,0:07:55.46,0:07:58.92,English_Main,,0,0,0,,Which should I choose? \NThis box?
+
+Dialogue: 0,0:07:59.04,0:08:00.29,Romaji_Main,,0,0,0,,ヘヘヘッ… 俺たちが軽くしてやるよ
+Dialogue: 0,0:07:59.04,0:08:00.29,English_Main,,0,0,0,,Ooh, jackpot!
+
+Dialogue: 0,0:08:00.46,0:08:01.34,Romaji_Main,,0,0,0,,（海賊Ｂ）喉 渇いてたんだ
+Dialogue: 0,0:08:00.46,0:08:01.34,English_Main,,0,0,0,,These look great!
+
+Dialogue: 0,0:08:01.46,0:08:03.88,Romaji_Main,,0,0,0,,はっ はい そうですね
+Dialogue: 0,0:08:01.46,0:08:03.88,English_Main,,0,0,0,,Is this a pirate ship?
+
+Dialogue: 0,0:08:04.01,0:08:08.30,Romaji_Main,,0,0,0,,アルビダ様に知られたら 殺されちゃいます
+Dialogue: 0,0:08:04.01,0:08:08.30,English_Main,,0,0,0,,No, it's a passenger ship that's \Nbeing raided by Alvida-sama.
+
+Dialogue: 0,0:08:08.76,0:08:11.85,Romaji_Main,,0,0,0,,てめえが黙ってりゃ済むことだ なあ？ コビー
+Dialogue: 0,0:08:08.76,0:08:11.85,English_Main,,0,0,0,,Well, it doesn't matter.
+
+Dialogue: 0,0:08:11.97,0:08:13.02,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:08:11.97,0:08:13.02,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:08:58.94,0:08:59.65,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:08:58.94,0:08:59.65,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:09:56.41,0:09:57.41,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:09:56.41,0:09:57.41,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:09:57.54,0:10:00.37,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Hayaku{\c&HFFFFFF&} nogete
+Dialogue: 0,0:09:57.54,0:10:00.37,English_Main,,0,0,0,,{\c&HFFFF00&}I'm{\c&HFFFFFF&} gonna{\c&H00FF00&} be{\c&HFFFFFF&} the{\c&H00FFFF&} King{\c&HFFFFFF&} of{\c&H00FF00&} the{\c&HFFFFFF&} Pirates!
+
+Dialogue: 0,0:10:00.50,0:10:02.62,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Nakama{\c&HFFFFFF&} o{\c&H00FFFF&} saenarete{\c&HFFFFFF&} kaeritsuka{\c&H00FF00&} ra{\c&HFFFFFF&} Korosarecha{\c&H00FFFF&} imasu{\c&HFFFFFF&} yo
+Dialogue: 0,0:10:00.50,0:10:02.62,English_Main,,0,0,0,,{\c&HFFFF00&}Wait,{\c&HFFFFFF&} you're{\c&H00FFFF&} a{\c&HFFFFFF&} pirate,{\c&H00FF00&} Luffy-san?! \N– {\c&HFFFF00&}Yep.{\c&HFFFFFF&}
+
+Dialogue: 0,0:10:02.75,0:10:05.59,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Sore{\c&HFFFFFF&} shite{\c&H00FFFF&} mo{\c&HFFFFFF&} Baoku{\c&H00FF00&} gatta{\c&HFFFFFF&} naa
+Dialogue: 0,0:10:02.75,0:10:05.59,English_Main,,0,0,0,,{\c&HFFFF00&}What{\c&HFFFFFF&} about{\c&H00FFFF&} your{\c&HFFFFFF&} crew?! \N– {\c&HFFFF00&}Don't{\c&HFFFFFF&} got{\c&H00FFFF&} one.{\c&HFFFFFF&} \NI'm{\c&H00FF00&} just{\c&HFFFFFF&} about{\c&H00FF00&} to{\c&HFFFFFF&} look{\c&H00FF00&} for{\c&HFFFFFF&} one.{\c&H00FFFF&}
+
+Dialogue: 0,0:10:05.71,0:10:08.96,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Koban{\c&HFFFFFF&} no{\c&H00FFFF&} uchi{\c&HFFFFFF&} ni{\c&H00FF00&} wa{\c&HFFFFFF&} Mada{\c&H00FFFF&} tsumu{\c&HFFFFFF&} Nakama{\c&H00FF00&} ga{\c&HFFFFFF&} iru{\c&H00FFFF&} n{\c&HFFFFFF&} desu{\c&H00FF00&} yo
+Dialogue: 0,0:10:05.71,0:10:08.96,English_Main,,0,0,0,,{\c&HFFFF00&}K-K-King{\c&HFFFFFF&} of{\c&H00FFFF&} the{\c&HFFFFFF&} Pirates{\c&H00FF00&} is \Nthe{\c&H00FFFF&} title{\c&HFFFFFF&} given{\c&H00FF00&} to{\c&HFFFFFF&} the{\c&H00FFFF&} person... ...who{\c&HFFFFFF&} obtains{\c&H00FF00&} everything{\c&HFFFFFF&} in{\c&H00FF00&} this{\c&HFFFFFF&} world!{\\}
+
+Dialogue: 0,0:10:09.42,0:10:11.80,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Sore{\c&HFFFFFF&} shite{\c&H00FFFF&} mo{\c&HFFFFFF&} Baoku{\c&H00FF00&} gatta{\c&HFFFFFF&} naa
+Dialogue: 0,0:10:09.42,0:10:11.80,English_Main,,0,0,0,,{\c&HFFFF00&}That{\c&HFFFFFF&} means{\c&H00FFFF&} seeking{\c&HFFFFFF&} the{\c&H00FFFF&} great \Ntreasure{\c&HFFFFFF&} of{\c&H00FF00&} wealth,{\c&HFFFFFF&} fame,{\c&H00FF00&} and{\c&HFFFFFF&} power... ...the{\c&H00FFFF&} One{\c&HFFFFFF&} Piece!{\\}
+
+Dialogue: 0,0:10:29.03,0:10:29.48,Romaji_Main,,0,0,0,,ROMAJI Line
+Dialogue: 0,0:10:29.03,0:10:29.48,English_Main,,0,0,0,,ENGLISH Line
+
+Dialogue: 0,0:10:29.61,0:10:30.99,Romaji_Main,,0,0,0,,{\c&HFFFF00&}うっほほほーい{\c&HFFFFFF&}
+Dialogue: 0,0:10:29.61,0:10:30.99,English_Main,,0,0,0,,But it's all right. I'm used to it now...
+
+Dialogue: 0,0:10:31.11,0:10:32.95,Romaji_Main,,0,0,0,,{\c&H00FF00&}(ルフィ)どれがいいかな？{\c&HFFFFFF&}
+Dialogue: 0,0:10:31.11,0:10:32.95,English_Main,,0,0,0,,(Luffy)What should I do?
+
+Dialogue: 0,0:10:33.07,0:10:34.66,Romaji_Main,,0,0,0,,{\c&H00FFFF&}この箱かな？おーっ当たり{\c&HFFFFFF&}
+Dialogue: 0,0:10:33.07,0:10:34.66,English_Main,,0,0,0,,Is this box okay? Oh well...
+
+Dialogue: 0,0:10:34.78,0:10:37.08,Romaji_Main,,0,0,0,,{\c&H00FF00&}うまそう{\c&HFFFFFF&}
+Dialogue: 0,0:10:34.78,0:10:37.08,English_Main,,0,0,0,,I think it's good.
+
+Dialogue: 0,0:10:37.20,0:10:38.99,Romaji_Main,,0,0,0,,{\c&HFFFF00&}ぼっ僕コビーって言います{\c&HFFFFFF&}
+Dialogue: 0,0:10:37.20,0:10:38.99,English_Main,,0,0,0,,My friend Cobb says...
+
+Dialogue: 0,0:10:39.12,0:10:42.00,Romaji_Main,,0,0,0,,{\c&H00FFFF&}ルフィさん…ですよね{\c&HFFFFFF&}
+Dialogue: 0,0:10:39.12,0:10:42.00,English_Main,,0,0,0,,(Luffy)Is that... right?
+
+Dialogue: 0,0:10:42.75,0:10:43.92,Romaji_Main,,0,0,0,,{\c&H00FF00&}すごいですねさっきはどうやったんです？{\c&HFFFFFF&}
+Dialogue: 0,0:10:42.75,0:10:43.92,English_Main,,0,0,0,,Wow! What happened last time?
+
+Dialogue: 0,0:10:45.71,0:10:47.29,Romaji_Main,,0,0,0,,{\c&H00FFFF&}うまいぞこれ{\c&HFFFFFF&}
+Dialogue: 0,0:10:45.71,0:10:47.29,English_Main,,0,0,0,,I'm glad it's like this!
+
+Dialogue: 0,0:10:47.42,0:10:49.76,Romaji_Main,,0,0,0,,{\c&H00FF00&}この船海賊船か？{\c&HFFFFFF&}
+Dialogue: 0,0:10:47.42,0:10:49.76,English_Main,,0,0,0,,Is this a pirate ship?
+
+Dialogue: 0,0:10:49.88,0:10:53.55,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(コビー)いえこの船は違います{\c&HFFFFFF&}
+Dialogue: 0,0:10:49.88,0:10:53.55,English_Main,,0,0,0,,(Cobb)No, this ship is different!
+
+Dialogue: 0,0:10:53.68,0:10:56.09,Romaji_Main,,0,0,0,,{\c&H00FF00&}たった今アルビダ様が襲ってる最中の客船です{\c&HFFFFFF&}
+Dialogue: 0,0:10:53.68,0:10:56.09,English_Main,,0,0,0,,Just now, Alvida-sama was attacking a passenger ship!
+
+Dialogue: 0,0:10:56.22,0:10:58.22,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(ルフィ)ふーんまあどうでもいいんだけど{\c&HFFFFFF&}
+Dialogue: 0,0:10:56.22,0:10:58.22,English_Main,,0,0,0,,(Luffy)Oh well, it doesn't matter...
+
+Dialogue: 0,0:10:58.35,0:11:00.60,Romaji_Main,,0,0,0,,{\c&H00FF00&}この船に小舟とかはないのかなあ？{\c&HFFFFFF&}
+Dialogue: 0,0:10:58.35,0:11:00.60,English_Main,,0,0,0,,Is there a small boat on this ship?
+
+Dialogue: 0,0:11:00.72,0:11:03.27,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(コビー)あ…あると思いますけど{\c&HFFFFFF&}
+Dialogue: 0,0:11:00.72,0:11:03.27,English_Main,,0,0,0,,(Cobb)I think so, though...
+
+Dialogue: 0,0:11:03.39,0:11:05.19,Romaji_Main,,0,0,0,,{\c&H00FF00&}(ルフィ)俺の船大渦にのまれちゃってさ{\c&HFFFFFF&}
+Dialogue: 0,0:11:03.39,0:11:05.19,English_Main,,0,0,0,,(Luffy)My ship is being pulled into the whirlpool!
+
+Dialogue: 0,0:11:05.31,0:11:06.86,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(コビー)えっ？あの大渦に…{\c&HFFFFFF&}
+Dialogue: 0,0:11:05.31,0:11:06.86,English_Main,,0,0,0,,(Cobb)Wait! That's the whirlpool!
+
+Dialogue: 0,0:11:07.02,0:11:10.40,Romaji_Main,,0,0,0,,{\c&H00FF00&}普通死にますよ{\c&HFFFFFF&}
+Dialogue: 0,0:11:07.02,0:11:10.40,English_Main,,0,0,0,,Ordinary people die, you know?
+
+Dialogue: 0,0:11:10.82,0:11:11.78,Romaji_Main,,0,0,0,,{\c&H00FFFF&}いやあ あれにはビックリしたな実際{\c&HFFFFFF&}
+Dialogue: 0,0:11:10.82,0:11:11.78,English_Main,,0,0,0,,I was shocked, actually...
+
+Dialogue: 0,0:11:11.90,0:11:14.03,Romaji_Main,,0,0,0,,{\c&H00FF00&}はあ？{\c&HFFFFFF&}
+Dialogue: 0,0:11:11.90,0:11:14.03,English_Main,,0,0,0,,What's up?
+
+Dialogue: 0,0:11:14.15,0:11:14.95,Romaji_Main,,0,0,0,,ROMAJI Line
+Dialogue: 0,0:11:14.15,0:11:14.95,English_Main,,0,0,0,,ENGLISH Line
+
+Dialogue: 0,0:11:16.16,0:11:17.49,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Utsu…{\c&HFFFFFF&}
+Dialogue: 0,0:11:16.16,0:11:17.49,English_Main,,0,0,0,,{\c&HFFFF00&}Huh, Coby?!
+
+Dialogue: 0,0:11:18.53,0:11:19.28,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Uu…{\c&HFFFFFF&}
+Dialogue: 0,0:11:18.53,0:11:19.28,English_Main,,0,0,0,,{\c&H00FF00&}You don't seem to be Zoro, the pirate hunter.
+
+Dialogue: 0,0:11:19.41,0:11:22.41,Romaji_Main,,0,0,0,,{\c&HFFFF00&}(Rufi){\c&HFFFFFF&} nun?{\c&H00FF00&}
+Dialogue: 0,0:11:19.41,0:11:22.41,English_Main,,0,0,0,,{\c&HFFFF00&}Zoro?
+
+Dialogue: 0,0:11:23.04,0:11:25.33,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(Coby){\c&HFFFFFF&} Aere ga unmei no hi deshita{\c&H00FF00&}
+Dialogue: 0,0:11:23.04,0:11:25.33,English_Main,,0,0,0,,{\c&H00FFFF&}Coby!
+
+Dialogue: 0,0:11:25.46,0:11:27.92,Romaji_Main,,0,0,0,,{\c&HFFFF00&}Ano ni pinnin ni ikou toki to{\c&HFFFFFF&}
+Dialogue: 0,0:11:25.46,0:11:27.92,English_Main,,0,0,0,,{\c&H00FF00&}Let's go!
+
+Dialogue: 0,0:11:30.25,0:11:30.92,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Machi soto e ikatte, shōbō ni noritta imasu kedo…{\c&HFFFFFF&}
+Dialogue: 0,0:11:30.25,0:11:30.92,English_Main,,0,0,0,,{\c&H00FF00&}Why, you...
+
+Dialogue: 0,0:11:32.92,0:11:33.72,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Un?{\c&HFFFFFF&}
+Dialogue: 0,0:11:32.92,0:11:33.72,English_Main,,0,0,0,,{\c&H00FF00&}Whoops!
+
+Dialogue: 0,0:11:33.84,0:11:39.55,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Uwa…{\c&HFFFFFF&}
+Dialogue: 0,0:11:33.84,0:11:39.55,English_Main,,0,0,0,,{\c&H00FF00&}It's not fair to attack from behind!
+
+Dialogue: 0,0:11:40.35,0:11:42.02,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(Coby){\c&HFFFFFF&} Dō yū wa ka, Kaizoku fuku e mukau, shōbō ni noritta imashita{\c&H00FF00&}
+Dialogue: 0,0:11:40.35,0:11:42.02,English_Main,,0,0,0,,{\c&H00FFFF&}It's not fair to attack all at once!
+
+Dialogue: 0,0:11:42.14,0:11:46.44,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Aere kara nijūnen{\c&HFFFFFF&}
+Dialogue: 0,0:11:42.14,0:11:46.44,English_Main,,0,0,0,,{\c&H00FF00&}Gotcha!
+
+Dialogue: 0,0:11:46.56,0:11:48.65,Romaji_Main,,0,0,0,,{\c&H00FFFF&}Kasa suranai toki nite, Zōmen kei to hataraku to{\c&HFFFFFF&}
+Dialogue: 0,0:11:46.56,0:11:48.65,English_Main,,0,0,0,,{\c&H00FF00&}Gum-Gum...
+
+Dialogue: 0,0:11:48.77,0:11:50.69,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(Coby){\c&HFFFFFF&} Omae doji de baka dana a{\c&H00FF00&}
+Dialogue: 0,0:11:48.77,0:11:50.69,English_Main,,0,0,0,,{\c&H00FFFF&}L-Luffy-san... What are you?
+
+Dialogue: 0,0:11:50.82,0:11:52.23,Romaji_Main,,0,0,0,,{\c&H00FFFF&}(Coby){\c&HFFFFFF&} Sonna mi mo futa mo iru{\c&H00FF00&}
+Dialogue: 0,0:11:50.82,0:11:52.23,English_Main,,0,0,0,,{\c&H00FFFF&}Me?
+
+Dialogue: 0,0:12:08.71,0:12:11.42,Romaji_Main,,0,0,0,,ROMAJI Line
+Dialogue: 0,0:12:08.71,0:12:11.42,English_Main,,0,0,0,,ENGLISH Line
+
+Dialogue: 0,0:13:52.90,0:13:55.15,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:13:52.90,0:13:55.15,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:14:39.73,0:14:42.78,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:14:39.73,0:14:42.78,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:15:33.96,0:15:35.79,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:15:33.96,0:15:35.79,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:15:38.25,0:15:44.26,Romaji_Main,,0,0,0,,ah ah ah
+Dialogue: 0,0:15:38.25,0:15:44.26,English_Main,,0,0,0,,I'm Luffy!
+
+Dialogue: 0,0:15:44.72,0:15:45.51,Romaji_Main,,0,0,0,,Kobi!
+Dialogue: 0,0:15:44.72,0:15:45.51,English_Main,,0,0,0,,Enter the Great Swordsman!
+
+Dialogue: 0,0:15:45.63,0:15:48.35,Romaji_Main,,0,0,0,,Uu...
+Dialogue: 0,0:15:45.63,0:15:48.35,English_Main,,0,0,0,,
+
+Dialogue: 0,0:15:50.39,0:15:52.31,Romaji_Main,,0,0,0,,Fun Sea pirate hunting Zero ja nasa sou da ne
+Dialogue: 0,0:15:50.39,0:15:52.31,English_Main,,0,0,0,,Pirate Hunter Roronoa Zoro
+
+Dialogue: 0,0:15:52.64,0:15:53.68,Romaji_Main,,0,0,0,,E?
+Dialogue: 0,0:15:52.64,0:15:53.68,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:03.23,0:16:06.99,Romaji_Main,,0,0,0,,Zero?
+Dialogue: 0,0:16:03.23,0:16:06.99,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:07.20,0:16:07.86,Romaji_Main,,0,0,0,,Sore mo chotto...
+Dialogue: 0,0:16:07.20,0:16:07.86,English_Main,,0,0,0,,The Man Who's Gonna be King of the Pirates!
+
+Dialogue: 0,0:16:07.99,0:16:08.82,Romaji_Main,,0,0,0,,Dare ya? Koitsui obasan
+Dialogue: 0,0:16:07.99,0:16:08.82,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:08.95,0:16:10.49,Romaji_Main,,0,0,0,,Koitsui...
+Dialogue: 0,0:16:08.95,0:16:10.49,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:10.78,0:16:14.41,Romaji_Main,,0,0,0,,Nantto toki...
+Dialogue: 0,0:16:10.78,0:16:14.41,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:14.54,0:16:15.50,Romaji_Main,,0,0,0,,Gagachiru!
+Dialogue: 0,0:16:14.54,0:16:15.50,English_Main,,0,0,0,,Enter the Great Swordsman!
+
+Dialogue: 0,0:16:16.12,0:16:17.92,Romaji_Main,,0,0,0,,Yuku zo
+Dialogue: 0,0:16:16.12,0:16:17.92,English_Main,,0,0,0,,
+
+Dialogue: 0,0:16:18.63,0:16:20.38,Romaji_Main,,0,0,0,,Hihi
+Dialogue: 0,0:16:18.63,0:16:20.38,English_Main,,0,0,0,,
+
+Dialogue: 0,0:17:56.68,0:17:57.35,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:17:56.68,0:17:57.35,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:17:58.27,0:17:59.81,Romaji_Main,,0,0,0,,{\c&HFFFF00&}ore?
+Dialogue: 0,0:17:58.27,0:17:59.81,English_Main,,0,0,0,,
+
+Dialogue: 0,0:18:00.52,0:18:04.23,Romaji_Main,,0,0,0,,{\c&H00FF00&}Ore{\c&HFFFFFF&}?
+Dialogue: 0,0:18:00.52,0:18:04.23,English_Main,,0,0,0,,Atama no naka ni ukandeite
+
+Dialogue: 0,0:18:04.36,0:18:06.19,Romaji_Main,,0,0,0,,{\c&H00FF00&}wa{\c&HFFFFFF&} {\c&H00FF00&}Ore{\c&HFFFFFF&}?
+Dialogue: 0,0:18:04.36,0:18:06.19,English_Main,,0,0,0,,Itsudemo sagashita kiseki no basho o
+
+Dialogue: 0,0:18:07.44,0:18:10.24,Romaji_Main,,0,0,0,,{\c&H00FF00&}to,{\c&HFFFFFF&} {\c&H00FF00&}sonna{\c&HFFFFFF&}?
+Dialogue: 0,0:18:07.44,0:18:10.24,English_Main,,0,0,0,,Shiranai dareka ni makenai you ni
+
+Dialogue: 0,0:18:11.28,0:18:13.16,Romaji_Main,,0,0,0,,Ee!
+Dialogue: 0,0:18:11.28,0:18:13.16,English_Main,,0,0,0,,
+
+Dialogue: 0,0:18:13.53,0:18:15.16,Romaji_Main,,0,0,0,,{\c&H00FF00&}ne,{\c&HFFFFFF&} {\c&H00FF00&}nanka{\c&HFFFFFF&}?
+Dialogue: 0,0:18:13.53,0:18:15.16,English_Main,,0,0,0,,Moshi mo sekai ga kawaru no nara
+
+Dialogue: 0,0:18:15.33,0:18:17.29,Romaji_Main,,0,0,0,,{\c&H00FF00&}to,{\c&HFFFFFF&} {\c&H00FF00&}sonna{\c&HFFFFFF&}?
+Dialogue: 0,0:18:15.33,0:18:17.29,English_Main,,0,0,0,,Nanimo shiranai koro no watashi ni
+
+Dialogue: 0,0:18:17.45,0:18:20.41,Romaji_Main,,0,0,0,,{\c&H00FF00&}so,{\c&HFFFFFF&} {\c&H00FF00&}desu{\c&HFFFFFF&}?
+Dialogue: 0,0:18:17.45,0:18:20.41,English_Main,,0,0,0,,Tsurete itte omoide ga iro asenai you ni
+
+Dialogue: 0,0:18:20.75,0:18:24.38,Romaji_Main,,0,0,0,,{\c&H00FF00&}so,{\c&HFFFFFF&} {\c&H00FF00&}desu{\c&HFFFFFF&}?
+Dialogue: 0,0:18:20.75,0:18:24.38,English_Main,,0,0,0,,Soo dena, jikan ga aru no?
+
+Dialogue: 0,0:18:24.75,0:18:25.88,Romaji_Main,,0,0,0,,{\c&H00FF00&}so,{\c&HFFFFFF&} {\c&H00FF00&}kai{\c&HFFFFFF&}?
+Dialogue: 0,0:18:24.75,0:18:25.88,English_Main,,0,0,0,,Hahahaha!
+
+Dialogue: 0,0:18:26.00,0:18:27.05,Romaji_Main,,0,0,0,,{\c&H00FF00&}so,{\c&HFFFFFF&} {\c&H00FF00&}ka{\c&HFFFFFF&}?
+Dialogue: 0,0:18:26.00,0:18:27.05,English_Main,,0,0,0,,Soo kai, omae mo Kaizoku ka
+
+Dialogue: 0,0:18:27.17,0:18:29.13,Romaji_Main,,0,0,0,,{\c&H00FF00&}nara,{\c&HFFFFFF&} {\c&H00FF00&}watashi{\c&HFFFFFF&}?
+Dialogue: 0,0:18:27.17,0:18:29.13,English_Main,,0,0,0,,Nara watashi to teki dana ne eee?
+
+Dialogue: 0,0:18:46.86,0:18:47.65,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:18:46.86,0:18:47.65,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:18:47.77,0:18:49.78,Romaji_Main,,0,0,0,,{\c&HFFFF00&}nande?{\c&HFFFFFF&}
+Dialogue: 0,0:18:47.77,0:18:49.78,English_Main,,0,0,0,,{\c&H00FF00&}what's up?{\c&HFFFFFF&}
+
+Dialogue: 0,0:18:50.11,0:18:53.07,Romaji_Main,,0,0,0,,{\c&HFFFF00&}ano kinbō no yūri miita de sho?{\c&HFFFFFF&}
+Dialogue: 0,0:18:50.11,0:18:53.07,English_Main,,0,0,0,,{\c&H00FF00&}I met a famous person and I'm so nervous!{\c&HFFFFFF&}
+
+Dialogue: 0,0:18:55.74,0:18:58.74,Romaji_Main,,0,0,0,,{\c&HFFFF00&}kono futsu wa kono umi de ichiban tsuyo...{\c&HFFFFFF&}
+Dialogue: 0,0:18:55.74,0:18:58.74,English_Main,,0,0,0,,{\c&H00FF00&}This is the most popular place in the sea...{\c&HFFFFFF&}
+
+Dialogue: 0,0:18:59.12,0:19:02.33,Romaji_Main,,0,0,0,,(rufi) {\c&H00FF00&}kaizoku ō ni naru tte ore ga ketementanda{\c&HFFFFFF&}
+Dialogue: 0,0:18:59.12,0:19:02.33,English_Main,,0,0,0,,{\c&H00FF00&}I will become a pirate king, I swear!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:05.58,0:19:08.09,Romaji_Main,,0,0,0,,sona toki ni tatakau na nara iie{\c&HFFFFFF&}
+Dialogue: 0,0:19:05.58,0:19:08.09,English_Main,,0,0,0,,{\c&H00FF00&}When I fight, I'll win for sure!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:08.50,0:19:10.96,Romaji_Main,,0,0,0,,ichiban... nan da?{\c&HFFFFFF&}
+Dialogue: 0,0:19:08.50,0:19:10.96,English_Main,,0,0,0,,{\c&H00FF00&}What's the most important thing?{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:11.71,0:19:17.55,Romaji_Main,,0,0,0,,i i i...{\c&HFFFFFF&}
+Dialogue: 0,0:19:11.71,0:19:17.55,English_Main,,0,0,0,,{\c&H00FF00&}I don't know!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:20.14,0:19:22.98,Romaji_Main,,0,0,0,,ichiban ikatsui ku sōba ba a desu ne!{\c&HFFFFFF&}
+Dialogue: 0,0:19:20.14,0:19:22.98,English_Main,,0,0,0,,{\c&H00FF00&}That's the most important thing, I'm sure!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:23.43,0:19:25.73,Romaji_Main,,0,0,0,,(albida) {\c&H00FF00&}kū...{\c&HFFFFFF&}
+Dialogue: 0,0:19:23.43,0:19:25.73,English_Main,,0,0,0,,{\c&H00FF00&}Shut up!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:25.85,0:19:29.15,Romaji_Main,,0,0,0,,(kobi) {\c&H00FF00&}kū...{\c&HFFFFFF&}
+Dialogue: 0,0:19:25.85,0:19:29.15,English_Main,,0,0,0,,{\c&H00FF00&}Shut up!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:29.52,0:19:31.40,Romaji_Main,,0,0,0,,ha ha ha ha hahahaha ha ha ha{\c&HFFFFFF&}
+Dialogue: 0,0:19:29.52,0:19:31.40,English_Main,,0,0,0,,{\c&H00FF00&}Ha ha ha ha, haha!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:32.57,0:19:37.20,Romaji_Main,,0,0,0,,nan datte!?{\c&HFFFFFF&}
+Dialogue: 0,0:19:32.57,0:19:37.20,English_Main,,0,0,0,,{\c&H00FF00&}What's the point?!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:37.32,0:19:39.83,Romaji_Main,,0,0,0,,(kobi) {\c&H00FF00&}boku wa kaizoku gun ni irunda irunda kaizoku do mo ya suzu nanda{\c&HFFFFFF&}
+Dialogue: 0,0:19:37.32,0:19:39.83,English_Main,,0,0,0,,{\c&H00FF00&}I'm a pirate, I'll never give up!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:39.95,0:19:41.12,Romaji_Main,,0,0,0,,jibun ga nan o iie teru ka mitter kaia?{\c&HFFFFFF&}
+Dialogue: 0,0:19:39.95,0:19:41.12,English_Main,,0,0,0,,{\c&H00FF00&}Do you think I'm lying?{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:41.24,0:19:43.41,Romaji_Main,,0,0,0,,(kobi) {\c&H00FF00&}mitter sa{\c&HFFFFFF&}
+Dialogue: 0,0:19:41.24,0:19:43.41,English_Main,,0,0,0,,{\c&H00FF00&}No way!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:43.54,0:19:45.37,Romaji_Main,,0,0,0,,boku wa boku no yari tai ko yaru nanda{\c&HFFFFFF&}
+Dialogue: 0,0:19:43.54,0:19:45.37,English_Main,,0,0,0,,{\c&H00FF00&}I'll do it, I'll do it!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:45.79,0:19:48.13,Romaji_Main,,0,0,0,,kaizoku gun ni iru ka kaizoku gun ni iru tto...{\c&HFFFFFF&}
+Dialogue: 0,0:19:45.79,0:19:48.13,English_Main,,0,0,0,,{\c&H00FF00&}Am I a pirate or not? Am I a pirate or not?...{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:48.63,0:19:50.21,Romaji_Main,,0,0,0,,o maeto toritsumare ya nanda!{\c&HFFFFFF&}
+Dialogue: 0,0:19:48.63,0:19:50.21,English_Main,,0,0,0,,{\c&H00FF00&}I'll follow you, I'll follow you!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:50.34,0:19:51.13,Romaji_Main,,0,0,0,,kon ga kya!{\c&HFFFFFF&}
+Dialogue: 0,0:19:50.34,0:19:51.13,English_Main,,0,0,0,,{\c&H00FF00&}What's going on?!{\c&HFFFFFF&}
+
+Dialogue: 0,0:19:51.25,0:19:52.71,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:19:51.25,0:19:52.71,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:21:05.75,0:21:06.96,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:21:05.75,0:21:06.96,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:21:07.37,0:21:09.46,Romaji_Main,,0,0,0,,kyoku to ikiru kase ro
+Dialogue: 0,0:21:07.37,0:21:09.46,English_Main,,0,0,0,,live and work hard now
+
+Dialogue: 0,0:21:11.25,0:21:12.04,Romaji_Main,,0,0,0,,(umizoku tachi) wa... hai
+Dialogue: 0,0:21:11.25,0:21:12.04,English_Main,,0,0,0,,(the pirates) what...
+
+Dialogue: 0,0:21:12.04,0:21:12.59,Romaji_Main,,0,0,0,,Rufi-san...
+Dialogue: 0,0:21:12.04,0:21:12.59,English_Main,,0,0,0,,Rufi-san...
+
+Dialogue: 0,0:21:12.04,0:21:12.59,Romaji_Main,,0,0,0,,Rufi-san...
+Dialogue: 0,0:21:12.04,0:21:12.59,English_Main,,0,0,0,,Rufi-san...
+
+Dialogue: 0,0:21:12.59,0:21:14.67,Romaji_Main,,0,0,0,,(dai hyou no tobira sur ou)
+Dialogue: 0,0:21:12.59,0:21:14.67,English_Main,,0,0,0,,(high-speed door opening)
+
+Dialogue: 0,0:21:16.05,0:21:18.47,Romaji_Main,,0,0,0,,(dai hyou no tobira sur ou)
+Dialogue: 0,0:21:16.05,0:21:18.47,English_Main,,0,0,0,,(high-speed door opening)
+
+Dialogue: 0,0:21:19.68,0:21:21.55,Romaji_Main,,0,0,0,,(futari) uwa wa ootto to
+Dialogue: 0,0:21:19.68,0:21:21.55,English_Main,,0,0,0,,(two) are better than one
+
+Dialogue: 0,0:21:21.68,0:21:22.55,Romaji_Main,,0,0,0,,(Cobi) are wa kaigun desu
+Dialogue: 0,0:21:21.68,0:21:22.55,English_Main,,0,0,0,,Cobi is the navy
+
+Dialogue: 0,0:21:23.05,0:21:24.35,Romaji_Main,,0,0,0,,(Rufi) oo
+Dialogue: 0,0:21:23.05,0:21:24.35,English_Main,,0,0,0,,Rufi...
+
+Dialogue: 0,0:21:24.51,0:21:26.06,Romaji_Main,,0,0,0,,choodo yo katta jan ka
+Dialogue: 0,0:21:24.51,0:21:26.06,English_Main,,0,0,0,,do you want to work hard?
+
+Dialogue: 0,0:21:26.18,0:21:27.48,Romaji_Main,,0,0,0,,o ne ikiru be?
+Dialogue: 0,0:21:26.18,0:21:27.48,English_Main,,0,0,0,,are you living?
+
+Dialogue: 0,0:21:27.60,0:21:28.56,Romaji_Main,,0,0,0,,(Cobi) e?
+Dialogue: 0,0:21:27.60,0:21:28.56,English_Main,,0,0,0,,Cobi...
+
+Dialogue: 0,0:21:28.69,0:21:32.31,Romaji_Main,,0,0,0,,(Rufi) ore wa umizoku da escure ru
+Dialogue: 0,0:21:28.69,0:21:32.31,English_Main,,0,0,0,,(I am the pirate who is hiding)
+
+Dialogue: 0,0:21:38.07,0:21:39.40,Romaji_Main,,0,0,0,,sonna
+Dialogue: 0,0:21:38.07,0:21:39.40,English_Main,,0,0,0,,(that kind of)
+
+Dialogue: 0,0:21:43.74,0:21:47.08,Romaji_Main,,0,0,0,,kono shijou ja iru tai do korokatte shimai yo
+Dialogue: 0,0:21:43.74,0:21:47.08,English_Main,,0,0,0,,(this situation is what I want to experience)
+
+Dialogue: 0,0:21:52.75,0:21:54.88,Romaji_Main,,0,0,0,,(fune ga oite kuru ou)
+Dialogue: 0,0:21:52.75,0:21:54.88,English_Main,,0,0,0,,(the ship that I will sail on)
+
+Dialogue: 0,0:21:55.00,0:21:58.05,Romaji_Main,,0,0,0,,(Nami) kyaaa
+Dialogue: 0,0:21:55.00,0:21:58.05,English_Main,,0,0,0,,Nami cries out
+
+Dialogue: 0,0:21:58.17,0:22:00.43,Romaji_Main,,0,0,0,,(dai hyou no tobira sur ou)
+Dialogue: 0,0:21:58.17,0:22:00.43,English_Main,,0,0,0,,(high-speed door opening)
+
+Dialogue: 0,0:22:00.55,0:22:02.51,Romaji_Main,,0,0,0,,(Cobi) nan toke esuge tatsu ne
+Dialogue: 0,0:22:00.55,0:22:02.51,English_Main,,0,0,0,,Cobi asks what's going on?
+
+Dialogue: 0,0:22:02.68,0:22:04.93,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:22:02.68,0:22:04.93,English_Main,,0,0,0,,ENGLISH_LINE
+
+Dialogue: 0,0:22:49.52,0:22:50.56,Romaji_Main,,0,0,0,,ROMAJI
+Dialogue: 0,0:22:49.52,0:22:50.56,English_Main,,0,0,0,,ENGLISH_LINE
+

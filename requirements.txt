@@ -1,0 +1,10 @@
+langchain
+langchain-google-genai
+google-generativeai
+python-dotenv
+pysrt
+janome
+cutlet
+fugashi
+unidic-lite
+langchain-ollama

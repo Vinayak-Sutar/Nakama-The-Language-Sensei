@@ -1,0 +1,49 @@
+# Large media files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# API Keys (CRITICAL)
+.env
+*.key
+secret.txt
+
+# Source subtitle files (keep only processed demo)
+ope1eng.ass
+ope1jap.vtt
+op1romaji.txt
+e1trans.txt
+*.vtt
+!demo/*.ass
