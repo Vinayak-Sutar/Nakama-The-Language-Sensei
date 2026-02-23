@@ -107,7 +107,7 @@ nakama-subtitles/
 
 ## 🎬 Demo
 
-**Video**: [Watch Demo]([YOUTUBE_LINK](https://youtu.be/9yiR4DDwoeY))  
+**Video**: [Watch Demo](https://youtu.be/9yiR4DDwoeY)  
 **Live Example**: Load `demo/ope1dual.ass` with One Piece Episode 1
 
 ---
